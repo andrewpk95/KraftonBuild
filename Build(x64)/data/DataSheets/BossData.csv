@@ -1,0 +1,168 @@
+Variable Name,Value,Type,Description
+,,,
+#Boss Stats,,,
+Boss Phase 1 Health,100,float,Maximum health of the boss at Phase 1
+Boss Phase 2 Health,200,float,Maximum health of the boss at Phase 2
+Boss Phase 3 Health,1000,float,Maximum health of the boss at Phase 3
+,,,
+Boss Is Invincible,FALSE,bool,"If TRUE, boss will become immune to all damage"
+Boss Hitbox Width,1.3,float,Radius of the boss capsule hitbox
+Boss Hitbox Height,2,float,Length of the boss capsule hitbox
+,,,
+#SPECIAL ANGLES,,,
+#,361,,This angle represents STATIC BOSS direction (only calculated once when launching the bullet)
+#,362,,This angle represents DYNAMIC BOSS direction (dynamically follows the target)
+#,363,,This angle represents STATIC PLAYER direction (only calculated once when launching the bullet)
+#,364,,This angle represents DYNAMIC PLAYER direction (dynamically follows the target)
+,,,
+,,,
+#Boss Follow Pattern Bullet Stats,,,
+Boss Bullet Damage,10,float,Base damage of the bullet
+Boss Bullet Damage Against Projectile,10,float,Base damage of the bullet (against Projectiles)
+Boss Bullet Size,0.25,float,Radius of the boss bullet's sphere hitbox
+Boss Bullet Is Transcendant,FALSE,bool,"If TRUE, this bullet will go through other bullets"
+Boss Bullet Is Invincible,FALSE,bool,"If TRUE, this bullet will not be destructible by other bullets"
+Boss Bullet Initial Speed,15,float,Initial Speed of boss's bullet
+Boss Bullet Acceleration,5,float,Acceleration rate of the bullet
+Boss Bullet Maximum Speed,30,float,Maximum speed of boss's bullet
+Boss Bullet Lifespan,2,float,How long the bullet will be active (seconds)
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+#Boss Hell Pattern Bullet Stats,,,
+Boss Pattern 2 Bullet Damage,10,float,Base damage of the bullet
+Boss Pattern 2 Bullet Damage Against Projectile,20,float,Base damage of the bullet (against Projectiles)
+Boss Pattern 2 Bullet Size,0.25,float,Radius of the boss bullet's sphere hitbox
+Boss Pattern 2 Bullet Is Transcendant,FALSE,bool,"If TRUE, this bullet will go through other bullets"
+Boss Pattern 2 Bullet Is Invincible,TRUE,bool,"If TRUE, this bullet will not be destructible by other bullets"
+Boss Pattern 2 Bullet Initial Speed,2,float,Initial Speed of boss's bullet
+Boss Pattern 2 Bullet Acceleration,5,float,Acceleration rate of the bullet
+Boss Pattern 2 Bullet Maximum Speed,2,float,Maximum speed of boss's bullet
+Boss Pattern 2 Bullet Lifespan,2.5,float,How long the bullet will be active (seconds)
+,,,
+#Boss Hell Pattern Variables,,,
+Boss Hell Pattern Initial Lag,0.5,float,Initial lag duration (seconds)
+Boss Hell Pattern Fire Rate,15,float,Patterns per second
+Boss Hell Pattern Repeat Count,20,int,How many times this pattern will repeat
+Boss Hell Pattern Ending Lag,3,float,Ending lag duration (seconds)
+Boss Hell Pattern Direction Count,8,int,Number of directions for bullets per pattern
+Boss Hell Pattern Delta Angle,12,float,Difference of angle for next pattern
+,,,
+#Boss Wave Pattern Bullet Stats,,,
+Boss Wave Bullet Damage,10,float,Base damage of the wave
+Boss Wave Bullet Length,100,float,Length of the boss wave's capsule hitbox
+Boss Wave Bullet Thickness,0.5,float,Thickness of the boss wave's capsule hitbox
+Boss Wave Bullet Initial Speed,2.5,float,Initial Speed of boss's wave
+Boss Wave Bullet Acceleration,10,float,Acceleration rate of the wave
+Boss Wave Bullet Maximum Speed,15,float,Maximum speed of boss's wave
+Boss Wave Bullet Lifespan,5,float,How long the wave will be active (seconds)
+,,,
+#Boss Wave Pattern Variables,,,
+Boss Wave Pattern Initial Lag,1,float,Initial lag duration (seconds)
+Boss Wave Pattern Fire Rate,0.5,float,Patterns per second
+Boss Wave Pattern Repeat Count,5,int,How many times this pattern will repeat
+Boss Wave Pattern Ending Lag,4,float,Ending lag duration (seconds)
+,,,
+#Boss AOE Pattern Stats,,,
+Boss AOE Bullet Damage,10,float,Base damage of the bullet
+Boss AOE Bullet Damage Against Projectile,1000,float,Base damage of the bullet (against Projectiles)
+Boss AOE Bullet Size,5,float,Radius of the boss bullet's sphere hitbox
+Boss AOE Bullet Initial Speed,0,float,Initial Speed of boss's bullet
+Boss AOE Bullet Acceleration,0,float,Acceleration rate of the bullet
+Boss AOE Bullet Maximum Speed,0,float,Maximum speed of boss's bullet
+Boss AOE Bullet Initial Delay,0.6,float,How long the bullet will take to shoot (seconds)
+Boss AOE Bullet Active Time,0.1,float,How long the bullet will be active (seconds)
+,,,
+#Boss AOE Pattern Variables,,,
+Boss AOE Pattern Initial Lag,1,float,Initial lag duration (seconds)
+Boss AOE Pattern Fire Rate,1,float,Patterns per second
+Boss AOE Pattern Repeat Count,5,int,How many times this pattern will repeat
+Boss AOE Pattern Ending Lag,3,float,Ending lag duration (seconds)
+,,,
+,,,
+#Boss Pattern 1-Alpha Bullet Stats,,,
+Boss 1-Alpha Bullet Damage,10,float,Base damage of the bullet
+Boss 1-Alpha Bullet Damage Against Projectile,20,float,Base damage of the bullet (against Projectiles)
+Boss 1-Alpha Bullet Size,0.25,float,Radius of the boss bullet's sphere hitbox
+Boss 1-Alpha Bullet Is Transcendant,FALSE,bool,"If TRUE, this bullet will go through other bullets"
+Boss 1-Alpha Bullet Is Invincible,FALSE,bool,"If TRUE, this bullet will not be destructible by other bullets"
+Boss 1-Alpha Bullet Initial Speed,7,float,Initial Speed of boss's bullet
+Boss 1-Alpha Bullet Acceleration,5,float,Acceleration rate of the bullet
+Boss 1-Alpha Bullet Maximum Speed,15,float,Maximum speed of boss's bullet
+Boss 1-Alpha Bullet Lifespan,2,float,How long the bullet will be active (seconds)
+,,,
+Boss Bullet Spawn Center,BOSS,,"Bullet spawn location (PLAYER, BOSS, (x, y))"
+Boss Bullet Spawn Offset,"(2, 0)",,"Bullet spawn offset in polar coordinates (r, theta)"
+Boss Bullet Launch Angle,363,,Direction angle in degrees in which the bullet will travel at (See SPECIAL ANGLES for more info)
+,,,
+#Boss Pattern 1-Alpha Variables,,,
+Boss Pattern 1-Alpha Initial Lag,7,float,Initial lag duration (seconds)
+Boss Pattern 1-Alpha Minimum Initial Lag,1,float,Minimum initial lag duration (seconds)
+Boss Pattern 1-Alpha Approach Speed,10,float,Boss approach speed towards the player
+Boss Pattern 1-Alpha Approach Acceleration,50,float,Boss approach speed acceleration
+Boss Pattern 1-Alpha Approach Distance,7,float,Boss minimum approach distance before firing
+Boss Pattern 1-Alpha Spread Angle,120,float,Angle within which the bullets will be fired (degrees)
+Boss Pattern 1-Alpha Bullet Count,11,int,How many bullets within the cone range
+Boss Pattern 1-Alpha Invincible Bullet Count,5,int,How many indestructible bullets within the cone range
+Boss Pattern 1-Alpha Fire Time,0.15,float,Within how many seconds the pattern will complete
+Boss Pattern 1-Alpha Repeat Count,3,int,How many times this pattern will repeat
+Boss Pattern 1-Alpha Ending Lag,1.5,float,Ending lag duration (seconds)
+,,,
+#Boss Pattern 1-Beta Variables,,,
+Boss Pattern 1-Beta Initial Lag,7,float,Initial lag duration (seconds)
+Boss Pattern 1-Beta Minimum Initial Lag,0,float,Minimum initial lag duration (seconds)
+Boss Pattern 1-Beta Approach Speed,10,float,Boss approach speed towards the player
+Boss Pattern 1-Beta Approach Acceleration,70,float,Boss approach speed acceleration
+Boss Pattern 1-Beta Approach Distance,5,float,Distance kept by boss from player during the pattern
+Boss Pattern 1-Beta Approach Ratio,0.3,float,Boss will move to fix the distance only when the player moves in or out of this range
+Boss Pattern 1-Beta Spread Angle,30,float,Angle within which the bullets will be fired (degrees)
+Boss Pattern 1-Beta Bullet Count,30,int,How many bullets within the cone range
+Boss Pattern 1-Beta Fire Rate,12,float,Bullets per second
+Boss Pattern 1-Beta Ending Lag,1.5,float,Ending lag duration (seconds)
+,,,
+#Boss Pattern 1-Gamma Variables,,,
+Boss Pattern 1-Gamma Initial Lag,1,float,Initial lag duration (seconds)
+Boss Pattern 1-Gamma Fire Rate,15,float,Patterns per second
+Boss Pattern 1-Gamma Repeat Count,20,int,How many times this pattern will repeat
+Boss Pattern 1-Gamma Ending Lag,3,float,Ending lag duration (seconds)
+Boss Pattern 1-Gamma Direction Count,8,int,Number of directions for bullets per pattern
+Boss Pattern 1-Gamma Delta Angle,12,float,Difference of angle for next pattern
+,,,
+#Boss Pattern 1-Epsilon Spinning Wave Stats,,,
+Boss 1-Epsilon Wave Bullet Damage,10,float,Base damage of the wave
+Boss 1-Epsilon Wave Bullet Length,25,float,Length of the boss wave's capsule hitbox
+Boss 1-Epsilon Wave Bullet Thickness,0.5,float,Thickness of the boss wave's capsule hitbox
+Boss 1-Epsilon Wave Bullet Initial Speed,30,float,Degrees spinned per second
+Boss 1-Epsilon Wave Bullet Acceleration,30,float,Acceleration rate of the spin
+Boss 1-Epsilon Wave Bullet Maximum Speed,60,float,Maximum speed of boss's wave
+Boss 1-Epsilon Wave Bullet Lifespan,10,float,How long the wave will be active (seconds)
+Boss 1-Epsilon Wave Bullet Spin Speed,60,float,Degrees spinned per second
+,,,
+,,,
+#Boss Pattern 1-Epsilon Bullet Stats,,,
+Boss 1-Epsilon Bullet Damage,10,float,Base damage of the bullet
+Boss 1-Epsilon Bullet Damage Against Projectile,20,float,Base damage of the bullet (against Projectiles)
+Boss 1-Epsilon Bullet Size,0.25,float,Radius of the boss bullet's sphere hitbox
+Boss 1-Epsilon Bullet Is Transcendant,FALSE,bool,"If TRUE, this bullet will go through other bullets"
+Boss 1-Epsilon Bullet Is Invincible,TRUE,bool,"If TRUE, this bullet will not be destructible by other bullets"
+Boss 1-Epsilon Bullet Initial Speed,7,float,Initial Speed of boss's bullet
+Boss 1-Epsilon Bullet Acceleration,1000,float,Acceleration rate of the bullet
+Boss 1-Epsilon Bullet Maximum Speed,7,float,Maximum speed of boss's bullet
+Boss 1-Epsilon Bullet Lifespan,10,float,How long the bullet will be active (seconds)
+Boss 1-Epsilon Bullet Orbit Radius,2.5,float,Radius of the circular motion
+,,,
+,,,
+#Boss Pattern 1-Epsilon Variables,,,
+Boss Pattern 1-Epsilon Initial Lag,1,float,Initial lag duration (seconds)
+Boss Pattern 1-Epsilon Duration,10,float,Duration of the pattern
+Boss Pattern 1-Epsilon Ending Lag,3,float,Ending lag duration (seconds)
+Boss Pattern 1-Epsilon Wave Count,2,int,Number of waves in a pattern
+Boss Pattern 1-Epsilon Bullet Count,8,int,Number of bullets in a pattern

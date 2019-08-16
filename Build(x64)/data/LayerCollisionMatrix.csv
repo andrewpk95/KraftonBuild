@@ -1,0 +1,9 @@
+,Obstacle,Ground,Player,Player Bullet,Player Trancendant Bullet,Boss Trancendant Bullet,Boss Bullet,Boss
+Obstacle,0,0,1,1,1,1,1,1
+Ground,0,0,1,0,0,0,0,1
+Player,1,1,0,0,0,1,1,1
+Player Bullet,1,0,0,0,0,0,1,1
+Player Trancendant Bullet,1,0,0,0,0,0,0,1
+Boss Trancendant Bullet,1,0,1,0,0,0,0,0
+Boss Bullet,1,0,1,1,0,0,0,0
+Boss,1,1,1,1,1,0,0,0

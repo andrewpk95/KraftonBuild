@@ -1,0 +1,27 @@
+Variable Name,Value,Type,Description
+,,,
+#General Game Configuration,,,
+#FULL_SCREEN,FALSE,bool,"If TRUE, the game starts as FULL SCREEN"
+Screen Width,1280,int,Width of the game screen in pixels
+Screen Height,720,int,Height of the game screen in pixels
+COLLIDER_DEBUG_MODE,FALSE,bool,"If TRUE, visibly displays all the colliders in the game"
+,,,
+#Game Settings,,,
+Scene Fade Out Duration,0.3,float,How long the screen will fade to black when loading a new scene
+Scene Fade In Duration,0.3,float,How long the screen will fade in when loading a new scene
+Rock Phase 1 Health,1,float,Total hits required to destroy the rock once
+Rock Phase 2 Health,2,float,Total hits required to destroy the rock twice
+Rock Phase 3 Health,2,float,Total hits required to destroy the rock completely
+Rock Radius,1.5,float,Radius of the rock blocking the portal to the boss stage
+Portal Radius,1,float,Radius of the portal to the boss stage
+Reward Pillar Activation Distance,2.5,float,Minimum distance the player must move in to the reward pillar to collect item
+Start Stage Width,10,float,Starting Stage width in game unit
+Start Stage Height,25,float,Starting Stage height in game unit
+Battle Stage Width,20,float,Battle Stage width in game unit
+Battle Stage Height,30,float,Battle Stage height in game unit
+Reward Stage Width,10,float,Reward Stage width in game unit
+Reward Stage Height,15,float,Reward Stage height in game unit
+Camera Minimum Distance,12,float,Minimum distance the camera zooms in
+Reward Room Camera Distance,12,float,Distance at how much the camera zooms out to show reward room
+Camera Shake Amount On Player Hit,0.2,float,How much the camera will shake when the Player takes damage
+Camera Shake Amount On Boss Hit,0.1,float,How much the camera will shake when the Boss takes damage
