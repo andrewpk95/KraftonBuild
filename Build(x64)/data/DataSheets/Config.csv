@@ -23,5 +23,7 @@ Reward Stage Width,10,float,Reward Stage width in game unit
 Reward Stage Height,15,float,Reward Stage height in game unit
 Camera Minimum Distance,12,float,Minimum distance the camera zooms in
 Reward Room Camera Distance,12,float,Distance at how much the camera zooms out to show reward room
+Camera Focus In Distance,10,float,Distance at how much the camera zooms in when focusing on something
 Camera Shake Amount On Player Hit,0.2,float,How much the camera will shake when the Player takes damage
 Camera Shake Amount On Boss Hit,0.1,float,How much the camera will shake when the Boss takes damage
+Camera Lerp Amount,0.1,float,How fast the camera will correct to follow

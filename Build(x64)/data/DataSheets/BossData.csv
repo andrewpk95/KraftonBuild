@@ -1,8 +1,8 @@
 Variable Name,Value,Type,Description
 ,,,
 #Boss Stats,,,
-Boss Phase 1 Health,100,float,Maximum health of the boss at Phase 1
-Boss Phase 2 Health,200,float,Maximum health of the boss at Phase 2
+Boss Phase 1 Health,1000,float,Maximum health of the boss at Phase 1
+Boss Phase 2 Health,1000,float,Maximum health of the boss at Phase 2
 Boss Phase 3 Health,1000,float,Maximum health of the boss at Phase 3
 ,,,
 Boss Is Invincible,FALSE,bool,"If TRUE, boss will become immune to all damage"
@@ -43,9 +43,9 @@ Boss Pattern 2 Bullet Damage Against Projectile,20,float,Base damage of the bull
 Boss Pattern 2 Bullet Size,0.25,float,Radius of the boss bullet's sphere hitbox
 Boss Pattern 2 Bullet Is Transcendant,FALSE,bool,"If TRUE, this bullet will go through other bullets"
 Boss Pattern 2 Bullet Is Invincible,TRUE,bool,"If TRUE, this bullet will not be destructible by other bullets"
-Boss Pattern 2 Bullet Initial Speed,2,float,Initial Speed of boss's bullet
+Boss Pattern 2 Bullet Initial Speed,5,float,Initial Speed of boss's bullet
 Boss Pattern 2 Bullet Acceleration,5,float,Acceleration rate of the bullet
-Boss Pattern 2 Bullet Maximum Speed,2,float,Maximum speed of boss's bullet
+Boss Pattern 2 Bullet Maximum Speed,7,float,Maximum speed of boss's bullet
 Boss Pattern 2 Bullet Lifespan,2.5,float,How long the bullet will be active (seconds)
 ,,,
 #Boss Hell Pattern Variables,,,
@@ -153,11 +153,11 @@ Boss 1-Epsilon Bullet Damage Against Projectile,20,float,Base damage of the bull
 Boss 1-Epsilon Bullet Size,0.25,float,Radius of the boss bullet's sphere hitbox
 Boss 1-Epsilon Bullet Is Transcendant,FALSE,bool,"If TRUE, this bullet will go through other bullets"
 Boss 1-Epsilon Bullet Is Invincible,TRUE,bool,"If TRUE, this bullet will not be destructible by other bullets"
-Boss 1-Epsilon Bullet Initial Speed,7,float,Initial Speed of boss's bullet
+Boss 1-Epsilon Bullet Initial Speed,8,float,Initial Speed of boss's bullet
 Boss 1-Epsilon Bullet Acceleration,1000,float,Acceleration rate of the bullet
-Boss 1-Epsilon Bullet Maximum Speed,7,float,Maximum speed of boss's bullet
+Boss 1-Epsilon Bullet Maximum Speed,8,float,Maximum speed of boss's bullet
 Boss 1-Epsilon Bullet Lifespan,10,float,How long the bullet will be active (seconds)
-Boss 1-Epsilon Bullet Orbit Radius,2.5,float,Radius of the circular motion
+Boss 1-Epsilon Bullet Orbit Radius,4,float,Radius of the circular motion
 ,,,
 ,,,
 #Boss Pattern 1-Epsilon Variables,,,
@@ -165,4 +165,4 @@ Boss Pattern 1-Epsilon Initial Lag,1,float,Initial lag duration (seconds)
 Boss Pattern 1-Epsilon Duration,10,float,Duration of the pattern
 Boss Pattern 1-Epsilon Ending Lag,3,float,Ending lag duration (seconds)
 Boss Pattern 1-Epsilon Wave Count,2,int,Number of waves in a pattern
-Boss Pattern 1-Epsilon Bullet Count,8,int,Number of bullets in a pattern
+Boss Pattern 1-Epsilon Bullet Count,6,int,Number of bullets in a pattern
