@@ -1,6 +1,6 @@
 Variable Name,Value,Type,Description
 ,,,
-Boss Strengthen Time,15,float,How long it takes for the boss to gain a random strength (seconds)
+Boss Strengthen Time,20,float,How long it takes for the boss to gain a random strength (seconds)
 ,,,
 #Boss Protect Strengthen Variables,,,
 Boss Protect Strengthen Cycle,10,float,Boss has a chance to gain invincibility every second
