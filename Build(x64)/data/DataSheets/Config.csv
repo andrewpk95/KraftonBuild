@@ -1,9 +1,9 @@
 Variable Name,Value,Type,Description
 ,,,
 #General Game Configuration,,,
-#FULL_SCREEN,FALSE,bool,"If TRUE, the game starts as FULL SCREEN"
-Screen Width,1280,int,Width of the game screen in pixels
-Screen Height,720,int,Height of the game screen in pixels
+FULL_SCREEN,FALSE,bool,"If TRUE, the game starts as FULL SCREEN"
+Screen Width,1920,int,Width of the game screen in pixels
+Screen Height,1080,int,Height of the game screen in pixels
 COLLIDER_DEBUG_MODE,FALSE,bool,"If TRUE, visibly displays all the colliders in the game"
 ,,,
 #Game Settings,,,

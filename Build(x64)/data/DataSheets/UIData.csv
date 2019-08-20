@@ -1,5 +1,46 @@
 Variable Name,Value,Type,Description
 ,,,
+#Player Health UI,,,
+Player Health UI Position X,282.5,float,X position from left
+Player Health UI Position Y,55,float,Y position from bottom
+Player Health UI Health Starting Position X,102.5,float,X Position of starting health block relative to health bar
+Player Health UI Health Starting Position Y,0,float,Y Position of starting health block relative to health bar
+Player Health UI Block Gap,41,float,Gap between health blocks in pixels
 ,,,
-#UI Settings,,,
-UI Item Status Item Padding,50,float,Padding amount between items in pixel
+#Chance UI,,,DETERMINES MAIN POSITION OF PLAYER UI
+Chance UI Position X,98,float,X position from left
+Chance UI Position Y,96,float,Y position from bottom
+,,,
+#Item Status UI,,,
+Phase 1 Item Slot Position X,0,float,X position of Phase 1 Item Slot Relative to Chance UI
+Phase 1 Item Slot Position Y,-124,float,Y position of Phase 1 Item Slot
+Phase 2 Item Slot Position X,0,float,X position of Phase 2 Item Slot
+Phase 2 Item Slot Position Y,-232,float,Y position of Phase 2 Item Slot
+Phase 3 Item Slot Position X,0,float,X position of Phase 3 Item Slot
+Phase 3 Item Slot Position Y,-340,float,Y position of Phase 3 Item Slot
+,,,
+#Boss Health UI,,,
+Boss Health UI Position X,960,float,X position from right
+Boss Health UI Position Y,56.5,float,Y position from top
+Boss Health UI Health Starting Position X,2,float,X Position of starting health block relative to health bar
+Boss Health UI Health Starting Position Y,0,float,Y Position of starting health block relative to health bar
+Boss Health UI Health Width,1390,float,Width of the black HP bar
+,,,
+#Boss Phase UI,,,
+Phase UI Position X,960,float,X Position from right
+Phase UI Position Y,95.5,float,Y Position from top
+Phase UI Health Starting Position X,-28,float,X Position of starting health block relative to health bar
+Phase UI Health Starting Position Y,0,float,Y Position of starting health block relative to health bar
+Phase UI Block Gap,26.5,float,Gap between phase blocks in pixels
+,,,
+#Reward Title UI,,,
+Reward Title Position X,226,float,X Position from left
+Reward Title Position Y,110,float,Y Position from top
+,,,
+,,,
+,,,
+#Reward Description UI,,,
+Reward Item Description Position X,288,float,X Position from right
+Reward Item Description Position Y,521,float,Y Position from top
+Reward Item Description Button Position X,0,float,X Position Relative to Description
+Reward Item Description Button Position Y,256,float,Y Position Relative to Description

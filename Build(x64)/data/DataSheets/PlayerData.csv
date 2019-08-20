@@ -9,7 +9,7 @@ Player Dash Endlag,0.1,float,How long the character will be vulnerable after das
 Player Dash Cooldown,1,float,Cooldown of dashing (seconds)
 ,,,
 #Player Stats,,,
-Player Health,100,float,Maximum health of the player
+Player Health,120,float,Maximum health of the player
 Player Is Invincible,FALSE,bool,"If TRUE, player will become immune to all damage"
 Player Hitbox Width,0.2,float,Radius of the player capsule hitbox
 Player Hitbox Height,0.7,float,Length of the player capsule hitbox
@@ -61,7 +61,7 @@ Player Sniper Bullet Lifespan,1,float,How long the bullet will be active (second
 Player Strong Bullet Damage,20,float,Base damage of the bullet (against Boss)
 Player Strong Bullet Damage Against Projectile,20,float,Base damage of the bullet (against Projectiles)
 Player Strong Bullet Size,0.25,float,Radius of the player bullet's sphere hitbox
-Player Strong Bullet Attack Speed,3,float,Bullets per second
+Player Strong Bullet Attack Speed,4,float,Bullets per second
 Player Strong Bullet Is Transcendant,FALSE,bool,"If TRUE, this bullet will go through other bullets"
 Player Strong Bullet Is Invincible,FALSE,bool,"If TRUE, this bullet will not be destructible by other bullets"
 Player Strong Bullet Initial Speed,20,float,Initial Speed of player's bullet

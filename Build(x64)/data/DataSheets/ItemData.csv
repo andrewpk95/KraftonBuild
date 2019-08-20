@@ -7,8 +7,8 @@ Siege Item Maximum Buff Ratio,0.5,float,Maximum damage buff ratio that can be re
 #Berserk Item Stats,,,
 Berserk Item Damage Buff Ratio,1,float,Damage buff ratio per missing health percentage (Value of 0.5 means 35% damage buff if 70% of health is missing)
 ,,,
-,,,
-,,,
+#Meteor Item Stats,,,
+Meteor Item New Invincible Duration,1.5,float,New player invincible duration on hit
 ,,,
 ,,,
 ,,,
