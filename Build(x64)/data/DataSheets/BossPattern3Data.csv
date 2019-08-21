@@ -3,15 +3,15 @@ Variable Name,Value,Type,Description
 #Boss Pattern 3-Alpha Variables,,,
 Boss Pattern 3-Alpha Initial Lag,7,float,Initial lag duration (seconds)
 Boss Pattern 3-Alpha Minimum Initial Lag,1,float,Minimum initial lag duration (seconds)
-Boss Pattern 3-Alpha Approach Speed,10,float,Boss approach speed towards the player
+Boss Pattern 3-Alpha Approach Speed,20,float,Boss approach speed towards the player
 Boss Pattern 3-Alpha Approach Acceleration,50,float,Boss approach speed acceleration
-Boss Pattern 3-Alpha Approach Distance,7,float,Boss minimum approach distance before firing
-Boss Pattern 3-Alpha Spread Angle,120,float,Angle within which the bullets will be fired (degrees)
+Boss Pattern 3-Alpha Approach Distance,11,float,Boss minimum approach distance before firing
+Boss Pattern 3-Alpha Spread Angle,180,float,Angle within which the bullets will be fired (degrees)
 Boss Pattern 3-Alpha Bullet Count,11,int,How many bullets within the cone range
 Boss Pattern 3-Alpha Invincible Bullet Count,5,int,How many indestructible bullets within the cone range
 Boss Pattern 3-Alpha Fire Time,0.15,float,Within how many seconds the pattern will complete
 Boss Pattern 3-Alpha Repeat Count,3,int,How many times this pattern will repeat
-Boss Pattern 3-Alpha Ending Lag,1.5,float,Ending lag duration (seconds)
+Boss Pattern 3-Alpha Ending Lag,0.5,float,Ending lag duration (seconds)
 ,,,
 #Boss Pattern 3-Alpha Bullet Stats,,,
 Boss 3-Alpha Bullet Damage,10,float,Base damage of the bullet
@@ -39,13 +39,13 @@ Boss 3-Alpha Invincible Bullet Lifespan,3,float,How long the bullet will be acti
 #Boss Pattern 3-Beta Variables,,,
 Boss Pattern 3-Beta Initial Lag,7,float,Initial lag duration (seconds)
 Boss Pattern 3-Beta Minimum Initial Lag,0,float,Minimum initial lag duration (seconds)
-Boss Pattern 3-Beta Approach Speed,10,float,Boss approach speed towards the player
+Boss Pattern 3-Beta Approach Speed,30,float,Boss approach speed towards the player
 Boss Pattern 3-Beta Approach Acceleration,70,float,Boss approach speed acceleration
-Boss Pattern 3-Beta Approach Distance,5,float,Distance kept by boss from player during the pattern
+Boss Pattern 3-Beta Approach Distance,9,float,Distance kept by boss from player during the pattern
 Boss Pattern 3-Beta Approach Ratio,0.3,float,Boss will move to fix the distance only when the player moves in or out of this range
 Boss Pattern 3-Beta Spread Angle,30,float,Angle within which the bullets will be fired (degrees)
-Boss Pattern 3-Beta Bullet Count,30,int,How many bullets within the cone range
-Boss Pattern 3-Beta Fire Rate,12,float,Bullets per second
+Boss Pattern 3-Beta Bullet Count,50,int,How many bullets within the cone range
+Boss Pattern 3-Beta Fire Rate,18,float,Bullets per second
 Boss Pattern 3-Beta Ending Lag,1.5,float,Ending lag duration (seconds)
 ,,,
 #Boss Pattern 3-Beta Bullet Stats,,,
@@ -63,9 +63,9 @@ Boss 3-Beta Bullet Lifespan,2,float,How long the bullet will be active (seconds)
 #Boss Pattern 3-Gamma Variables,,,
 Boss Pattern 3-Gamma Initial Lag,1,float,Initial lag duration (seconds)
 Boss Pattern 3-Gamma Fire Rate,15,float,Patterns per second
-Boss Pattern 3-Gamma Repeat Count,20,int,How many times this pattern will repeat
+Boss Pattern 3-Gamma Repeat Count,40,int,How many times this pattern will repeat
 Boss Pattern 3-Gamma Ending Lag,3,float,Ending lag duration (seconds)
-Boss Pattern 3-Gamma Direction Count,8,int,Number of directions for bullets per pattern
+Boss Pattern 3-Gamma Direction Count,11,int,Number of directions for bullets per pattern
 Boss Pattern 3-Gamma Delta Angle,12,float,Difference of angle for next pattern
 ,,,
 #Boss Pattern 3-Gamma Bullet Stats,,,
@@ -82,8 +82,8 @@ Boss 3-Gamma Bullet Lifespan,2.5,float,How long the bullet will be active (secon
 ,,,
 #Boss Pattern 3-Delta Variables,,,
 Boss Pattern 3-Delta Initial Lag,1,float,Initial lag duration (seconds)
-Boss Pattern 3-Delta Fire Rate,0.5,float,Patterns per second
-Boss Pattern 3-Delta Repeat Count,5,int,How many times this pattern will repeat
+Boss Pattern 3-Delta Fire Rate,0.8,float,Patterns per second
+Boss Pattern 3-Delta Repeat Count,3,int,How many times this pattern will repeat
 Boss Pattern 3-Delta Ending Lag,4,float,Ending lag duration (seconds)
 ,,,
 #Boss Pattern 3-Delta Wave Stats,,,
@@ -98,10 +98,10 @@ Boss 3-Delta Wave Bullet Lifespan,5,float,How long the wave will be active (seco
 ,,,
 #Boss Pattern 3-Epsilon Variables,,,
 Boss Pattern 3-Epsilon Initial Lag,1,float,Initial lag duration (seconds)
-Boss Pattern 3-Epsilon Duration,10,float,Duration of the pattern
+Boss Pattern 3-Epsilon Duration,5,float,Duration of the pattern
 Boss Pattern 3-Epsilon Ending Lag,3,float,Ending lag duration (seconds)
-Boss Pattern 3-Epsilon Wave Count,2,int,Number of waves in a pattern
-Boss Pattern 3-Epsilon Bullet Count,6,int,Number of bullets in a pattern
+Boss Pattern 3-Epsilon Wave Count,4,int,Number of waves in a pattern
+Boss Pattern 3-Epsilon Bullet Count,12,int,Number of bullets in a pattern
 ,,,
 #Boss Pattern 3-Epsilon Spinning Wave Stats,,,
 Boss 3-Epsilon Wave Bullet Damage,10,float,Base damage of the wave
@@ -110,7 +110,7 @@ Boss 3-Epsilon Wave Bullet Thickness,0.5,float,Thickness of the boss wave's caps
 Boss 3-Epsilon Wave Bullet Initial Speed,30,float,Degrees spinned per second
 Boss 3-Epsilon Wave Bullet Acceleration,30,float,Acceleration rate of the spin
 Boss 3-Epsilon Wave Bullet Maximum Speed,60,float,Maximum speed of boss's wave
-Boss 3-Epsilon Wave Bullet Lifespan,10,float,How long the wave will be active (seconds)
+Boss 3-Epsilon Wave Bullet Lifespan,5,float,How long the wave will be active (seconds)
 Boss 3-Epsilon Wave Bullet Spin Speed,60,float,Degrees spinned per second
 ,,,
 #Boss Pattern 3-Epsilon Bullet Stats,,,
@@ -122,7 +122,7 @@ Boss 3-Epsilon Bullet Is Invincible,TRUE,bool,"If TRUE, this bullet will not be 
 Boss 3-Epsilon Bullet Initial Speed,8,float,Initial Speed of boss's bullet
 Boss 3-Epsilon Bullet Acceleration,1000,float,Acceleration rate of the bullet
 Boss 3-Epsilon Bullet Maximum Speed,8,float,Maximum speed of boss's bullet
-Boss 3-Epsilon Bullet Lifespan,10,float,How long the bullet will be active (seconds)
+Boss 3-Epsilon Bullet Lifespan,5,float,How long the bullet will be active (seconds)
 Boss 3-Epsilon Bullet Orbit Radius,4,float,Radius of the circular motion
 ,,,
 ,,,
