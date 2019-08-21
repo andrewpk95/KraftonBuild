@@ -15,10 +15,10 @@ Rock Phase 3 Health,2,float,Total hits required to destroy the rock completely
 Rock Radius,1.5,float,Radius of the rock blocking the portal to the boss stage
 Portal Radius,1,float,Radius of the portal to the boss stage
 Reward Pillar Activation Distance,2.5,float,Minimum distance the player must move in to the reward pillar to collect item
+Laser Thickness,0.2,float,Thickness of the tutorial laser
+Skip Boss Entrance Cutscene,FALSE,bool,"If TRUE, the game will start the boss fight right away"
 ,,,
-Skip Boss Entrance Cutscene,TRUE,bool,"If TRUE, the game will start the boss fight right away"
-,,,
-,,,
+Start Wall Height,5,float,Height of Start Stage Wall
 Start Stage Width,10,float,Starting Stage width in game unit
 Start Stage Height,25,float,Starting Stage height in game unit
 Battle Stage Width,20,float,Battle Stage width in game unit

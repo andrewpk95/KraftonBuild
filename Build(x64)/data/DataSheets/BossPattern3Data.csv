@@ -124,29 +124,3 @@ Boss 3-Epsilon Bullet Acceleration,1000,float,Acceleration rate of the bullet
 Boss 3-Epsilon Bullet Maximum Speed,8,float,Maximum speed of boss's bullet
 Boss 3-Epsilon Bullet Lifespan,5,float,How long the bullet will be active (seconds)
 Boss 3-Epsilon Bullet Orbit Radius,4,float,Radius of the circular motion
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-#Boss AOE2 Pattern Variables,,,
-Boss AOE2 Pattern Initial Lag,1,float,Initial lag duration (seconds)
-Boss AOE2 Pattern Fire Rate,1,float,Patterns per second
-Boss AOE2 Pattern Repeat Count,5,int,How many times this pattern will repeat
-Boss AOE2 Pattern Ending Lag,3,float,Ending lag duration (seconds)
-,,,
-#Boss AOE2 Pattern Stats,,,
-Boss AOE2 Bullet Damage,10,float,Base damage of the bullet
-Boss AOE2 Bullet Damage Against Projectile,0,float,Base damage of the bullet (against Projectiles)
-Boss AOE2 Bullet Size,5,float,Radius of the boss bullet's sphere hitbox
-Boss AOE2 Bullet Initial Speed,0,float,Initial Speed of boss's bullet
-Boss AOE2 Bullet Acceleration,0,float,Acceleration rate of the bullet
-Boss AOE2 Bullet Maximum Speed,0,float,Maximum speed of boss's bullet
-Boss AOE2 Bullet Initial Delay,0.6,float,How long the bullet will take to shoot (seconds)
-Boss AOE2 Bullet Active Time,0.1,float,How long the bullet will be active (seconds)
