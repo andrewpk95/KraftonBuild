@@ -45,7 +45,7 @@ Boss Pattern 2-Beta Approach Distance,10,float,Distance kept by boss from player
 Boss Pattern 2-Beta Approach Ratio,0.3,float,Boss will move to fix the distance only when the player moves in or out of this range
 Boss Pattern 2-Beta Spread Angle,30,float,Angle within which the bullets will be fired (degrees)
 Boss Pattern 2-Beta Bullet Count,30,int,How many bullets within the cone range
-Boss Pattern 2-Beta Fire Rate,18,float,Bullets per second
+Boss Pattern 2-Beta Fire Rate,15,float,Bullets per second
 Boss Pattern 2-Beta Ending Lag,1,float,Ending lag duration (seconds)
 ,,,
 #Boss Pattern 2-Beta Bullet Stats,,,
@@ -82,7 +82,7 @@ Boss 2-Gamma Bullet Lifespan,4,float,How long the bullet will be active (seconds
 ,,,
 #Boss Pattern 2-Delta Variables,,,
 Boss Pattern 2-Delta Initial Lag,0.5,float,Initial lag duration (seconds)
-Boss Pattern 2-Delta Fire Rate,0.9,float,Patterns per second
+Boss Pattern 2-Delta Fire Rate,0.7,float,Patterns per second
 Boss Pattern 2-Delta Repeat Count,7,int,How many times this pattern will repeat
 Boss Pattern 2-Delta Ending Lag,1,float,Ending lag duration (seconds)
 ,,,
@@ -109,9 +109,9 @@ Boss 2-Epsilon Wave Bullet Length,100,float,Length of the boss wave's capsule hi
 Boss 2-Epsilon Wave Bullet Thickness,1,float,Thickness of the boss wave's capsule hitbox
 Boss 2-Epsilon Wave Bullet Initial Speed,30,float,Degrees spinned per second
 Boss 2-Epsilon Wave Bullet Acceleration,30,float,Acceleration rate of the spin
-Boss 2-Epsilon Wave Bullet Maximum Speed,60,float,Maximum speed of boss's wave
+Boss 2-Epsilon Wave Bullet Maximum Speed,50,float,Maximum speed of boss's wave
 Boss 2-Epsilon Wave Bullet Lifespan,12,float,How long the wave will be active (seconds)
-Boss 2-Epsilon Wave Bullet Spin Speed,60,float,Degrees spinned per second
+Boss 2-Epsilon Wave Bullet Spin Speed,50,float,Degrees spinned per second
 ,,,
 #Boss Pattern 2-Epsilon Bullet Stats,,,
 Boss 2-Epsilon Bullet Damage,20,float,Base damage of the bullet
@@ -123,7 +123,7 @@ Boss 2-Epsilon Bullet Initial Speed,8,float,Initial Speed of boss's bullet
 Boss 2-Epsilon Bullet Acceleration,1000,float,Acceleration rate of the bullet
 Boss 2-Epsilon Bullet Maximum Speed,8,float,Maximum speed of boss's bullet
 Boss 2-Epsilon Bullet Lifespan,12,float,How long the bullet will be active (seconds)
-Boss 2-Epsilon Bullet Orbit Radius,4,float,Radius of the circular motion
+Boss 2-Epsilon Bullet Orbit Radius,5,float,Radius of the circular motion
 ,,,
 #Boss AOE Pattern Variables,,,
 Boss AOE Pattern Initial Lag,0.5,float,Initial lag duration (seconds)

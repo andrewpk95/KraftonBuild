@@ -3,17 +3,17 @@ Variable Name,Value,Type,Description
 #Player Movement,,,
 Player Speed,7,float,Maximum speed the player can move
 Player Acceleration,1000,float,Determines how fast the player's speed changes
-Player Dash Speed,40,float,Dashing speed of character
-Player Dash Duration,0.1,float,Dashing duration (seconds)
+Player Dash Speed,25,float,Dashing speed of character
+Player Dash Duration,0.2,float,Dashing duration (seconds)
 Player Dash Endlag,0.05,float,How long the character will be vulnerable after dashing (seconds)
 Player Dash Cooldown,0.2,float,Cooldown of dashing (seconds)
 ,,,
 #Player Stats,,,
 Player Health,120,float,Maximum health of the player
 Player Is Invincible,FALSE,bool,"If TRUE, player will become immune to all damage"
-Player Hitbox Width,0.18,float,Radius of the player capsule hitbox
+Player Hitbox Width,0.16,float,Radius of the player capsule hitbox
 Player Hitbox Height,0.65,float,Length of the player capsule hitbox
-Player On Damage Invincible Duration,0.2,float,How long the player is invincible after taking damage (seconds)
+Player On Damage Invincible Duration,0.5,float,How long the player is invincible after taking damage (seconds)
 ,,,
 ,,,
 #Player Basic Bullet Stats,,,
@@ -32,22 +32,22 @@ Player Basic Bullet Lifespan,1,float,How long the bullet will be active (seconds
 ,,,
 #Player Shotgun Bullet Stats,,,
 Player Shotgun Bullet Damage,17,float,Base damage of the bullet (against Boss)
-Player Shotgun Bullet Damage Against Projectile,20,float,Base damage of the bullet (against Projectiles)
+Player Shotgun Bullet Damage Against Projectile,100,float,Base damage of the bullet (against Projectiles)
 Player Shotgun Bullet Size,0.22,float,Radius of the player bullet's sphere hitbox
 Player Shotgun Bullet Attack Speed,1.2,float,Bullets per second
 Player Shotgun Bullet Is Transcendant,FALSE,bool,"If TRUE, this bullet will go through other bullets"
 Player Shotgun Bullet Is Invincible,FALSE,bool,"If TRUE, this bullet will not be destructible by other bullets"
 Player Shotgun Bullet Initial Speed,25,float,Initial Speed of player's bullet
-Player Shotgun Bullet Acceleration,40,float,Acceleration rate of the bullet
-Player Shotgun Bullet Maximum Speed,35,float,Maximum speed of player's bullet
-Player Shotgun Bullet Lifespan,0.17,float,How long the bullet will be active (seconds)
+Player Shotgun Bullet Acceleration,30,float,Acceleration rate of the bullet
+Player Shotgun Bullet Maximum Speed,40,float,Maximum speed of player's bullet
+Player Shotgun Bullet Lifespan,0.2,float,How long the bullet will be active (seconds)
 Player Shotgun Bullet Count,5,int,Number of bullets fired per shot
-Player Shotgun Spread Angle,80,float,Width angle of the shotgun
+Player Shotgun Spread Angle,60,float,Width angle of the shotgun
 ,,,
 ,,,
 #Player Sniper Bullet Stats,,,
 Player Sniper Bullet Damage,40,float,Base damage of the bullet (against Boss)
-Player Sniper Bullet Damage Against Projectile,50,float,Base damage of the bullet (against Projectiles)
+Player Sniper Bullet Damage Against Projectile,40,float,Base damage of the bullet (against Projectiles)
 Player Sniper Bullet Size,0.5,float,Radius of the player bullet's sphere hitbox
 Player Sniper Bullet Attack Speed,0.8,float,Bullets per second
 Player Sniper Bullet Is Transcendant,FALSE,bool,"If TRUE, this bullet will go through other bullets"
@@ -59,7 +59,7 @@ Player Sniper Bullet Lifespan,2,float,How long the bullet will be active (second
 ,,,
 #Player Strong Bullet Stats,,,
 Player Strong Bullet Damage,10,float,Base damage of the bullet (against Boss)
-Player Strong Bullet Damage Against Projectile,10,float,Base damage of the bullet (against Projectiles)
+Player Strong Bullet Damage Against Projectile,20,float,Base damage of the bullet (against Projectiles)
 Player Strong Bullet Size,0.25,float,Radius of the player bullet's sphere hitbox
 Player Strong Bullet Attack Speed,3,float,Bullets per second
 Player Strong Bullet Is Transcendant,FALSE,bool,"If TRUE, this bullet will go through other bullets"

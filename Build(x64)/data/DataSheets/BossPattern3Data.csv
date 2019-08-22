@@ -11,7 +11,7 @@ Boss Pattern 3-Alpha Bullet Count,22,int,How many bullets within the cone range
 Boss Pattern 3-Alpha Invincible Bullet Count,20,int,How many indestructible bullets within the cone range
 Boss Pattern 3-Alpha Fire Time,0.3,float,Within how many seconds the pattern will complete
 Boss Pattern 3-Alpha Repeat Count,5,int,How many times this pattern will repeat
-Boss Pattern 3-Alpha Ending Lag,0.1,float,Ending lag duration (seconds)
+Boss Pattern 3-Alpha Ending Lag,0.3,float,Ending lag duration (seconds)
 ,,,
 #Boss Pattern 3-Alpha Bullet Stats,,,
 Boss 3-Alpha Bullet Damage,10,float,Base damage of the bullet
@@ -44,8 +44,8 @@ Boss Pattern 3-Beta Approach Acceleration,70,float,Boss approach speed accelerat
 Boss Pattern 3-Beta Approach Distance,8,float,Distance kept by boss from player during the pattern
 Boss Pattern 3-Beta Approach Ratio,0.3,float,Boss will move to fix the distance only when the player moves in or out of this range
 Boss Pattern 3-Beta Spread Angle,20,float,Angle within which the bullets will be fired (degrees)
-Boss Pattern 3-Beta Bullet Count,50,int,How many bullets within the cone range
-Boss Pattern 3-Beta Fire Rate,22,float,Bullets per second
+Boss Pattern 3-Beta Bullet Count,60,int,How many bullets within the cone range
+Boss Pattern 3-Beta Fire Rate,15,float,Bullets per second
 Boss Pattern 3-Beta Ending Lag,0.7,float,Ending lag duration (seconds)
 ,,,
 #Boss Pattern 3-Beta Bullet Stats,,,
@@ -54,8 +54,8 @@ Boss 3-Beta Bullet Damage Against Projectile,20,float,Base damage of the bullet 
 Boss 3-Beta Bullet Size,0.3,float,Radius of the boss bullet's sphere hitbox
 Boss 3-Beta Bullet Is Transcendant,FALSE,bool,"If TRUE, this bullet will go through other bullets"
 Boss 3-Beta Bullet Is Invincible,TRUE,bool,"If TRUE, this bullet will not be destructible by other bullets"
-Boss 3-Beta Bullet Initial Speed,35,float,Initial Speed of boss's bullet
-Boss 3-Beta Bullet Acceleration,100,float,Acceleration rate of the bullet
+Boss 3-Beta Bullet Initial Speed,20,float,Initial Speed of boss's bullet
+Boss 3-Beta Bullet Acceleration,20,float,Acceleration rate of the bullet
 Boss 3-Beta Bullet Maximum Speed,35,float,Maximum speed of boss's bullet
 Boss 3-Beta Bullet Lifespan,3,float,How long the bullet will be active (seconds)
 ,,,
@@ -91,8 +91,8 @@ Boss 3-Delta Wave Bullet Damage,20,float,Base damage of the wave
 Boss 3-Delta Wave Bullet Length,100,float,Length of the boss wave's capsule hitbox
 Boss 3-Delta Wave Bullet Thickness,1,float,Thickness of the boss wave's capsule hitbox
 Boss 3-Delta Wave Bullet Initial Speed,2,float,Initial Speed of boss's wave
-Boss 3-Delta Wave Bullet Acceleration,20,float,Acceleration rate of the wave
-Boss 3-Delta Wave Bullet Maximum Speed,28,float,Maximum speed of boss's wave
+Boss 3-Delta Wave Bullet Acceleration,15,float,Acceleration rate of the wave
+Boss 3-Delta Wave Bullet Maximum Speed,25,float,Maximum speed of boss's wave
 Boss 3-Delta Wave Bullet Lifespan,5,float,How long the wave will be active (seconds)
 ,,,
 ,,,
@@ -109,9 +109,9 @@ Boss 3-Epsilon Wave Bullet Length,100,float,Length of the boss wave's capsule hi
 Boss 3-Epsilon Wave Bullet Thickness,1,float,Thickness of the boss wave's capsule hitbox
 Boss 3-Epsilon Wave Bullet Initial Speed,45,float,Degrees spinned per second
 Boss 3-Epsilon Wave Bullet Acceleration,30,float,Acceleration rate of the spin
-Boss 3-Epsilon Wave Bullet Maximum Speed,90,float,Maximum speed of boss's wave
+Boss 3-Epsilon Wave Bullet Maximum Speed,70,float,Maximum speed of boss's wave
 Boss 3-Epsilon Wave Bullet Lifespan,20,float,How long the wave will be active (seconds)
-Boss 3-Epsilon Wave Bullet Spin Speed,90,float,Degrees spinned per second
+Boss 3-Epsilon Wave Bullet Spin Speed,70,float,Degrees spinned per second
 ,,,
 #Boss Pattern 3-Epsilon Bullet Stats,,,
 Boss 3-Epsilon Bullet Damage,20,float,Base damage of the bullet

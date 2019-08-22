@@ -14,5 +14,5 @@ Boss Buff Strengthen Damage Buff Ratio,10,float,Damage added to each attack
 #Boss Darkness Strengthen Variables,,,
 Boss Darkness Strengthen Cycle,15,float,Player has a chance to gain darkness every second
 Boss Darkness Strengthen Probability,0.5,float,Chance of gaining darkness after one cycle
-Boss Darkness Strengthen Darkness Duration,3,float,Darkness duration (seconds)
-Boss Darkness Strengthen Darkness Amount,0.028,float,"The higher the value, the stronger the darkness will be"
+Boss Darkness Strengthen Darkness Duration,4,float,Darkness duration (seconds)
+Boss Darkness Strengthen Darkness Amount,0.02,float,"The higher the value, the stronger the darkness will be"
