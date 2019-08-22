@@ -18,16 +18,16 @@ Reward Pillar Activation Distance,2.5,float,Minimum distance the player must mov
 Laser Thickness,0.2,float,Thickness of the tutorial laser
 Skip Boss Entrance Cutscene,FALSE,bool,"If TRUE, the game will start the boss fight right away"
 ,,,
-Start Wall Height,5,float,Height of Start Stage Wall
+Start Wall Height,7,float,Height of Start Stage Wall
 Start Stage Width,10,float,Starting Stage width in game unit
 Start Stage Height,25,float,Starting Stage height in game unit
-Battle Stage Width,20,float,Battle Stage width in game unit
-Battle Stage Height,30,float,Battle Stage height in game unit
+Battle Stage Width,30,float,Battle Stage width in game unit
+Battle Stage Height,45,float,Battle Stage height in game unit
 Reward Stage Width,10,float,Reward Stage width in game unit
 Reward Stage Height,15,float,Reward Stage height in game unit
 ,,,
 ,,,
-Camera Minimum Distance,12,float,Minimum distance the camera zooms in
+Camera Minimum Distance,15,float,Minimum distance the camera zooms in
 Reward Room Camera Distance,12,float,Distance at how much the camera zooms out to show reward room
 Camera Focus In Distance,10,float,Distance at how much the camera zooms in when focusing on something
 Camera Shake Amount On Player Hit,0.2,float,How much the camera will shake when the Player takes damage
