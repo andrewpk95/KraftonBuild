@@ -1,8 +1,14 @@
 Variable Name,Value,Type,Description
 ,,,
+#Menu UI,,,
+Menu Start Button Position X,960.5,float,X position from left
+Menu Start Button Position Y,666.5,float,Y position from bottom
+Menu Quit Button Position X,960.5,float,X position from left
+Menu Quit Button Position Y,832,float,Y position from bottom
+,,,
 #Tutorial UI,,,
-Tutorial UI Position X,200,float,X position from right
-Tutorial UI Position Y,200,float,Y position from bottom
+Tutorial UI Position X,960,float,X position from right
+Tutorial UI Position Y,120,float,Y position from bottom
 ,,,
 #Player Health UI,,,
 Player Health UI Position X,282,float,X position from left
@@ -41,8 +47,6 @@ Phase UI Block Gap,26.5,float,Gap between phase blocks in pixels
 Reward Title Position X,226,float,X Position from left
 Reward Title Position Y,110,float,Y Position from top
 ,,,
-,,,
-,,,
 #Reward Description UI,,,
 Reward Item Description Position X,288,float,X Position from right
 Reward Item Description Position Y,521,float,Y Position from top
@@ -55,8 +59,8 @@ Reward Item Description Item Position Y,-226,float,Y Position Relative to Descri
 Player Death Message Position X,500,float,X Position from left
 Player Death Message Position Y,300,float,Y Position from top
 Player Hint Message Position X,0,float,X Position Relative to Death Message
-Player Hint Message Position Y,200,float,Y Position Relative to Death Message
-Player Try Again Button Position X,-100,float,X Position Relative to Death Message
-Player Try Again Button Position Y,400,float,Y Position Relative to Death Message
-Player Exit Button Position X,100,float,X Position Relative to Death Message
-Player Exit Button Position Y,400,float,Y Position Relative to Death Message
+Player Hint Message Position Y,0,float,Y Position Relative to Death Message
+Player Try Again Button Position X,0,float,X Position Relative to Death Message
+Player Try Again Button Position Y,324.5,float,Y Position Relative to Death Message
+Player Exit Button Position X,860,float,X Position Relative to Death Message
+Player Exit Button Position Y,475,float,Y Position Relative to Death Message
