@@ -84,15 +84,15 @@ Boss 1-Gamma Bullet Lifespan,4,float,How long the bullet will be active (seconds
 Boss Pattern 1-Delta Initial Lag,1.5,float,Initial lag duration (seconds)
 Boss Pattern 1-Delta Fire Rate,0.8,float,Patterns per second
 Boss Pattern 1-Delta Repeat Count,8,int,How many times this pattern will repeat
-Boss Pattern 1-Delta Ending Lag,1.5,float,Ending lag duration (seconds)
+Boss Pattern 1-Delta Ending Lag,3,float,Ending lag duration (seconds)
 ,,,
 #Boss Pattern 1-Delta Wave Stats,,,
 Boss 1-Delta Wave Bullet Damage,20,float,Base damage of the wave
 Boss 1-Delta Wave Bullet Length,100,float,Length of the boss wave's capsule hitbox
 Boss 1-Delta Wave Bullet Thickness,1,float,Thickness of the boss wave's capsule hitbox
-Boss 1-Delta Wave Bullet Initial Speed,2,float,Initial Speed of boss's wave
-Boss 1-Delta Wave Bullet Acceleration,8,float,Acceleration rate of the wave
-Boss 1-Delta Wave Bullet Maximum Speed,20,float,Maximum speed of boss's wave
+Boss 1-Delta Wave Bullet Initial Speed,3,float,Initial Speed of boss's wave
+Boss 1-Delta Wave Bullet Acceleration,6,float,Acceleration rate of the wave
+Boss 1-Delta Wave Bullet Maximum Speed,18,float,Maximum speed of boss's wave
 Boss 1-Delta Wave Bullet Lifespan,5,float,How long the wave will be active (seconds)
 ,,,
 ,,,
@@ -107,8 +107,8 @@ Boss Pattern 1-Epsilon Bullet Count,6,int,Number of bullets in a pattern
 Boss 1-Epsilon Wave Bullet Damage,20,float,Base damage of the wave
 Boss 1-Epsilon Wave Bullet Length,100,float,Length of the boss wave's capsule hitbox
 Boss 1-Epsilon Wave Bullet Thickness,1,float,Thickness of the boss wave's capsule hitbox
-Boss 1-Epsilon Wave Bullet Initial Speed,45,float,Degrees spinned per second
-Boss 1-Epsilon Wave Bullet Acceleration,30,float,Acceleration rate of the spin
+Boss 1-Epsilon Wave Bullet Initial Speed,0,float,Degrees spinned per second
+Boss 1-Epsilon Wave Bullet Acceleration,25,float,Acceleration rate of the spin
 Boss 1-Epsilon Wave Bullet Maximum Speed,45,float,Maximum speed of boss's wave
 Boss 1-Epsilon Wave Bullet Lifespan,12,float,How long the wave will be active (seconds)
 Boss 1-Epsilon Wave Bullet Spin Speed,45,float,Degrees spinned per second

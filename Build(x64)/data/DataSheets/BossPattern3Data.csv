@@ -1,7 +1,7 @@
 Variable Name,Value,Type,Description
 ,,,
 #Boss Pattern 3-Alpha Variables,,,
-Boss Pattern 3-Alpha Initial Lag,0.5,float,Initial lag duration (seconds)
+Boss Pattern 3-Alpha Initial Lag,1,float,Initial lag duration (seconds)
 Boss Pattern 3-Alpha Minimum Initial Lag,0.2,float,Minimum initial lag duration (seconds)
 Boss Pattern 3-Alpha Approach Speed,20,float,Boss approach speed towards the player
 Boss Pattern 3-Alpha Approach Acceleration,50,float,Boss approach speed acceleration
@@ -11,7 +11,7 @@ Boss Pattern 3-Alpha Bullet Count,22,int,How many bullets within the cone range
 Boss Pattern 3-Alpha Invincible Bullet Count,20,int,How many indestructible bullets within the cone range
 Boss Pattern 3-Alpha Fire Time,0.3,float,Within how many seconds the pattern will complete
 Boss Pattern 3-Alpha Repeat Count,5,int,How many times this pattern will repeat
-Boss Pattern 3-Alpha Ending Lag,0.3,float,Ending lag duration (seconds)
+Boss Pattern 3-Alpha Ending Lag,1,float,Ending lag duration (seconds)
 ,,,
 #Boss Pattern 3-Alpha Bullet Stats,,,
 Boss 3-Alpha Bullet Damage,10,float,Base damage of the bullet
@@ -46,7 +46,7 @@ Boss Pattern 3-Beta Approach Ratio,0.3,float,Boss will move to fix the distance 
 Boss Pattern 3-Beta Spread Angle,20,float,Angle within which the bullets will be fired (degrees)
 Boss Pattern 3-Beta Bullet Count,60,int,How many bullets within the cone range
 Boss Pattern 3-Beta Fire Rate,15,float,Bullets per second
-Boss Pattern 3-Beta Ending Lag,0.7,float,Ending lag duration (seconds)
+Boss Pattern 3-Beta Ending Lag,1.5,float,Ending lag duration (seconds)
 ,,,
 #Boss Pattern 3-Beta Bullet Stats,,,
 Boss 3-Beta Bullet Damage,20,float,Base damage of the bullet
@@ -61,7 +61,7 @@ Boss 3-Beta Bullet Lifespan,3,float,How long the bullet will be active (seconds)
 ,,,
 ,,,
 #Boss Pattern 3-Gamma Variables,,,
-Boss Pattern 3-Gamma Initial Lag,1,float,Initial lag duration (seconds)
+Boss Pattern 3-Gamma Initial Lag,0.5,float,Initial lag duration (seconds)
 Boss Pattern 3-Gamma Fire Rate,8,float,Patterns per second
 Boss Pattern 3-Gamma Repeat Count,60,int,How many times this pattern will repeat
 Boss Pattern 3-Gamma Ending Lag,1.5,float,Ending lag duration (seconds)
@@ -83,16 +83,16 @@ Boss 3-Gamma Bullet Lifespan,3,float,How long the bullet will be active (seconds
 #Boss Pattern 3-Delta Variables,,,
 Boss Pattern 3-Delta Initial Lag,0.5,float,Initial lag duration (seconds)
 Boss Pattern 3-Delta Fire Rate,2.5,float,Patterns per second
-Boss Pattern 3-Delta Repeat Count,8,int,How many times this pattern will repeat
-Boss Pattern 3-Delta Ending Lag,0.5,float,Ending lag duration (seconds)
+Boss Pattern 3-Delta Repeat Count,6,int,How many times this pattern will repeat
+Boss Pattern 3-Delta Ending Lag,2,float,Ending lag duration (seconds)
 ,,,
 #Boss Pattern 3-Delta Wave Stats,,,
 Boss 3-Delta Wave Bullet Damage,20,float,Base damage of the wave
 Boss 3-Delta Wave Bullet Length,100,float,Length of the boss wave's capsule hitbox
 Boss 3-Delta Wave Bullet Thickness,1,float,Thickness of the boss wave's capsule hitbox
-Boss 3-Delta Wave Bullet Initial Speed,2,float,Initial Speed of boss's wave
+Boss 3-Delta Wave Bullet Initial Speed,3,float,Initial Speed of boss's wave
 Boss 3-Delta Wave Bullet Acceleration,15,float,Acceleration rate of the wave
-Boss 3-Delta Wave Bullet Maximum Speed,25,float,Maximum speed of boss's wave
+Boss 3-Delta Wave Bullet Maximum Speed,22,float,Maximum speed of boss's wave
 Boss 3-Delta Wave Bullet Lifespan,5,float,How long the wave will be active (seconds)
 ,,,
 ,,,
@@ -107,8 +107,8 @@ Boss Pattern 3-Epsilon Bullet Count,12,int,Number of bullets in a pattern
 Boss 3-Epsilon Wave Bullet Damage,20,float,Base damage of the wave
 Boss 3-Epsilon Wave Bullet Length,100,float,Length of the boss wave's capsule hitbox
 Boss 3-Epsilon Wave Bullet Thickness,1,float,Thickness of the boss wave's capsule hitbox
-Boss 3-Epsilon Wave Bullet Initial Speed,45,float,Degrees spinned per second
-Boss 3-Epsilon Wave Bullet Acceleration,30,float,Acceleration rate of the spin
+Boss 3-Epsilon Wave Bullet Initial Speed,0,float,Degrees spinned per second
+Boss 3-Epsilon Wave Bullet Acceleration,40,float,Acceleration rate of the spin
 Boss 3-Epsilon Wave Bullet Maximum Speed,70,float,Maximum speed of boss's wave
 Boss 3-Epsilon Wave Bullet Lifespan,20,float,How long the wave will be active (seconds)
 Boss 3-Epsilon Wave Bullet Spin Speed,70,float,Degrees spinned per second

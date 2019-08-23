@@ -1,6 +1,6 @@
 Variable Name,Value,Type,Description
 ,,,
-Boss Strengthen Time,30,float,How long it takes for the boss to gain a random strength (seconds)
+Boss Strengthen Time,25,float,How long it takes for the boss to gain a random strength (seconds)
 ,,,
 #Boss Protect Strengthen Variables,,,
 Boss Protect Strengthen Cycle,10,float,Boss has a chance to gain invincibility every second
@@ -8,7 +8,7 @@ Boss Protect Strengthen Probability,0.5,float,Chance of gaining invincibility af
 Boss Protect Strengthen Invincibility Duration,3,float,Invincibility duration (seconds)
 ,,,
 #Boss Buff Strengthen Variables,,,
-Boss Buff Strengthen Health Buff Ratio,0.2,float,Maximum health buff ratio (current health is also buffed by this value)
+Boss Buff Strengthen Health Buff Ratio,0.3,float,Maximum health buff ratio (current health is also buffed by this value)
 Boss Buff Strengthen Damage Buff Ratio,10,float,Damage added to each attack
 ,,,
 #Boss Darkness Strengthen Variables,,,

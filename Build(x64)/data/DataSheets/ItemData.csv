@@ -1,14 +1,14 @@
 Variable Name,Value,Type,Description
 ,,,
 #Siege Item Stats,,,
-Siege Item Damage Buff Ratio,0.1,float,Damage buff ratio added per second
+Siege Item Damage Buff Ratio,0.5,float,Damage buff ratio added per second
 Siege Item Maximum Buff Ratio,0.5,float,Maximum damage buff ratio that can be reached with this item
 ,,,
 #Berserk Item Stats,,,
-Berserk Item Damage Buff Ratio,0.5,float,Damage buff ratio per missing health percentage (Value of 0.5 means 35% damage buff if 70% of health is missing)
+Berserk Item Damage Buff Ratio,0.6,float,Damage buff ratio per missing health percentage (Value of 0.5 means 35% damage buff if 70% of health is missing)
 ,,,
 #Meteor Item Stats,,,
-Meteor Item New Invincible Duration,1,float,New player invincible duration on hit
+Meteor Item New Invincible Duration,0.9,float,New player invincible duration on hit
 ,,,
 ,,,
 ,,,
@@ -16,8 +16,8 @@ Meteor Item New Invincible Duration,1,float,New player invincible duration on hi
 ,,,
 #AOE Dash Stats,,,
 ,,,
-Player AOE Dash Speed,40,float,Dashing speed of character
-Player AOE Dash Duration,0.1,float,Dashing duration (seconds)
+Player AOE Dash Speed,30,float,Dashing speed of character
+Player AOE Dash Duration,0.15,float,Dashing duration (seconds)
 Player AOE Dash Endlag,0.05,float,How long the character will be vulnerable after dashing (seconds)
 Player AOE Dash Cooldown,0.2,float,Cooldown of dashing (seconds)
 ,,,
@@ -26,19 +26,19 @@ Player AOE Dash Cooldown,0.2,float,Cooldown of dashing (seconds)
 ,,,
 ,,,
 ,,,
-Player Dash Bullet Damage,10,float,Base damage of the bullet (against Boss)
-Player Dash Bullet Damage Against Projectile,20,float,Base damage of the bullet (against Projectiles)
-Player Dash Bullet Size,0.2,float,Radius of the player bullet's sphere hitbox
+Player Dash Bullet Damage,7,float,Base damage of the bullet (against Boss)
+Player Dash Bullet Damage Against Projectile,10,float,Base damage of the bullet (against Projectiles)
+Player Dash Bullet Size,0.25,float,Radius of the player bullet's sphere hitbox
 Player Dash Bullet Is Transcendant,FALSE,bool,"If TRUE, this bullet will go through other bullets"
 Player Dash Bullet Is Invincible,FALSE,bool,"If TRUE, this bullet will not be destructible by other bullets"
 Player Dash Bullet Initial Speed,25,float,Initial Speed of player's bullet
-Player Dash Bullet Acceleration,20,float,Acceleration rate of the bullet
+Player Dash Bullet Acceleration,40,float,Acceleration rate of the bullet
 Player Dash Bullet Maximum Speed,35,float,Maximum speed of player's bullet
-Player Dash Bullet Lifespan,0.1,float,How long the bullet will be active (seconds)
+Player Dash Bullet Lifespan,1,float,How long the bullet will be active (seconds)
 ,,,
 #Courage Dash Stats,,,
-Player Courage Dash Speed,40,float,Dashing speed of character
-Player Courage Dash Duration,0.1,float,Dashing duration (seconds)
+Player Courage Dash Speed,30,float,Dashing speed of character
+Player Courage Dash Duration,0.15,float,Dashing duration (seconds)
 Player Courage Dash Endlag,0.05,float,How long the character will be vulnerable after dashing (seconds)
 Player Courage Dash Cooldown,0.2,float,Cooldown of dashing (seconds)
 ,,,
@@ -49,8 +49,8 @@ Courage Buff Duration,2,float,Buff duration of Courage (seconds)
 ,,,
 ,,,
 #Griffin Dash Stats,,,
-Player Griffin Dash Speed,40,float,Dashing speed of character
-Player Griffin Dash Duration,0.1,float,Dashing duration (seconds)
+Player Griffin Dash Speed,30,float,Dashing speed of character
+Player Griffin Dash Duration,0.15,float,Dashing duration (seconds)
 Player Griffin Dash Endlag,0,float,How long the character will be vulnerable after dashing (seconds)
 Player Griffin Dash Cooldown,0.2,float,Cooldown of dashing (seconds)
 ,,,

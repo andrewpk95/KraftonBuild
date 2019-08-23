@@ -1,9 +1,9 @@
 Variable Name,Value,Type,Description
 ,,,
 #Boss Stats,,,
-Boss Phase 1 Health,600,float,Maximum health of the boss at Phase 1
+Boss Phase 1 Health,700,float,Maximum health of the boss at Phase 1
 Boss Phase 2 Health,900,float,Maximum health of the boss at Phase 2
-Boss Phase 3 Health,1200,float,Maximum health of the boss at Phase 3
+Boss Phase 3 Health,1000,float,Maximum health of the boss at Phase 3
 Boss Is Invincible,FALSE,bool,"If TRUE, boss will become immune to all damage"
 Boss Hitbox Width,1.4,float,Radius of the boss capsule hitbox
 Boss Hitbox Height,2,float,Length of the boss capsule hitbox
